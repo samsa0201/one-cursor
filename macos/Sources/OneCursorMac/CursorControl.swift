@@ -30,9 +30,16 @@ public enum CursorControl {
         CGWarpMouseCursorPosition(CGPoint(x: p.x, y: p.y))
     }
 
+    private static let warpSource = CGEventSource(stateID: .combinedSessionState)
+
     /// Warping normally suppresses real mouse input for 250 ms; turn that off.
     public static func disableWarpSuppression() {
-        CGSetLocalEventsSuppressionInterval(0)
+        warpSource?.localEventsSuppressionInterval = 0
+        // The process-wide setter is hidden from the SDK but still honoured, as Barrier relies on.
+        typealias SetInterval = @convention(c) (CFTimeInterval) -> Int32
+        if let sym = dlsym(UnsafeMutableRawPointer(bitPattern: -2), "CGSetLocalEventsSuppressionInterval") {
+            _ = unsafeBitCast(sym, to: SetInterval.self)(0)
+        }
     }
 
     /// Hiding the cursor only works for the frontmost app unless this private
