@@ -1,0 +1,18 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+*.apk
+*.aab
+
+# Swift / Xcode
+.build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+DerivedData/
+dist/
+
+.DS_Store
