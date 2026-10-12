@@ -29,7 +29,6 @@ jobs:
             android/app/build/outputs/apk/release/*.apk
 
   macos:
-    if: ${{ hashFiles('macos/Package.swift') != '' }}
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
