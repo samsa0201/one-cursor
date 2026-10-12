@@ -40,7 +40,7 @@ jobs:
           swift test
       - name: Build app bundle
         working-directory: macos
-        run: ./scripts/build-app.sh
+        run: ./scripts/build-app.sh --universal
       - uses: actions/upload-artifact@v4
         with:
           name: one-cursor-macos
