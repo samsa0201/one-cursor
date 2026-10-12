@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">One Cursor</string>
+    <string name="accessibility_label">One Cursor pointer</string>
+    <string name="accessibility_description">Lets the mouse and keyboard of your computer control this phone: shows a pointer, turns clicks into taps and types text. One Cursor only acts on input sent by the computer you connect to.</string>
+    <string name="share_label">Send to computer</string>
+    <string name="share_sent">Sent to the computer\'s clipboard</string>
+    <string name="share_not_connected">Not connected to a computer</string>
+
+    <string name="service_off_title">Accessibility service is off</string>
+    <string name="service_off_body">One Cursor needs its accessibility service to show the pointer and turn clicks and key presses into touches and text.</string>
+    <string name="service_enable">Open accessibility settings</string>
+
+    <string name="status_idle">Not connected</string>
+    <string name="status_connecting">Connecting to %1$s…</string>
+    <string name="status_connected">Connected to %1$s</string>
+    <string name="status_retrying">Connection lost, retrying…</string>
+    <string name="status_error">Could not connect</string>
+    <string name="status_active">The cursor is on this phone</string>
+    <string name="status_inactive">Move the mouse past the screen edge to come here</string>
+
+    <string name="section_connection">Connection</string>
+    <string name="field_host">Server address</string>
+    <string name="field_port">Port</string>
+    <string name="field_name">Screen name</string>
+    <string name="field_name_help">Must match a screen name in the server\'s layout.</string>
+    <string name="field_tls">Encrypted connection (TLS)</string>
+    <string name="field_tls_help">Barrier and One Cursor servers use TLS by default.</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="discovered">Servers on this network</string>
+    <string name="discovered_none">Searching… (Barrier servers must be entered by hand)</string>
+
+    <string name="section_input">Mouse &amp; keyboard</string>
+    <string name="pointer_speed">Pointer speed: %1$.1f×</string>
+    <string name="scroll_speed">Scroll speed: %1$.1f×</string>
+    <string name="invert_scroll">Invert scrolling</string>
+    <string name="right_button">Right button</string>
+    <string name="middle_button">Middle button</string>
+    <string name="telex">Vietnamese Telex input</string>
+    <string name="telex_help">Type Vietnamese with the computer keyboard (aa → â, s → sắc, …).</string>
+
+    <string name="section_clipboard">Clipboard</string>
+    <string name="clipboard_help">Text copied on the computer is put on this phone\'s clipboard automatically.</string>
+    <string name="sync_on_leave">Send the phone\'s clipboard when the cursor leaves</string>
+    <string name="sync_on_leave_help">Briefly opens an invisible screen, because Android only lets the focused app read the clipboard.</string>
+    <string name="send_clipboard">Send clipboard to computer</string>
+    <string name="forget_servers">Forget trusted servers</string>
+
+    <string name="trust_title">Trust this server?</string>
+    <string name="trust_body">%1$s presented this certificate fingerprint (SHA-256). Check that it matches the one shown on the server before trusting it.</string>
+    <string name="trust_accept">Trust</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_home">Home</string>
+    <string name="action_recents">Recent apps</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_long_press">Long press</string>
+    <string name="action_none">Nothing</string>
+
+    <string name="help_title">How it works</string>
+    <string name="help_body">1. Run One Cursor (or Barrier / Input Leap) as a server on your computer.\n2. Add this phone\'s screen name to the server\'s layout, e.g. to the right of the computer.\n3. Enable the accessibility service, enter the server address and connect.\n\nLeft click = tap, hold = long press, drag = swipe, wheel = scroll. Esc = Back, Cmd/Ctrl+Space = notifications.</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_label">Con trỏ One Cursor</string>
+    <string name="accessibility_description">Cho phép chuột và bàn phím của máy tính điều khiển điện thoại này: hiển thị con trỏ, biến cú nhấp thành thao tác chạm và nhập văn bản. One Cursor chỉ thực hiện thao tác do máy tính bạn kết nối gửi tới.</string>
+    <string name="share_label">Gửi sang máy tính</string>
+    <string name="share_sent">Đã gửi vào clipboard của máy tính</string>
+    <string name="share_not_connected">Chưa kết nối với máy tính</string>
+
+    <string name="service_off_title">Dịch vụ trợ năng đang tắt</string>
+    <string name="service_off_body">One Cursor cần dịch vụ trợ năng để hiển thị con trỏ và biến cú nhấp, phím bấm thành thao tác chạm và văn bản.</string>
+    <string name="service_enable">Mở cài đặt trợ năng</string>
+
+    <string name="status_idle">Chưa kết nối</string>
+    <string name="status_connecting">Đang kết nối tới %1$s…</string>
+    <string name="status_connected">Đã kết nối tới %1$s</string>
+    <string name="status_retrying">Mất kết nối, đang thử lại…</string>
+    <string name="status_error">Không kết nối được</string>
+    <string name="status_active">Con trỏ đang ở trên điện thoại này</string>
+    <string name="status_inactive">Đưa chuột qua mép màn hình máy tính để sang đây</string>
+
+    <string name="section_connection">Kết nối</string>
+    <string name="field_host">Địa chỉ server</string>
+    <string name="field_port">Cổng</string>
+    <string name="field_name">Tên màn hình</string>
+    <string name="field_name_help">Phải trùng với tên màn hình trong bố cục của server.</string>
+    <string name="field_tls">Kết nối mã hoá (TLS)</string>
+    <string name="field_tls_help">Server Barrier và One Cursor mặc định dùng TLS.</string>
+    <string name="connect">Kết nối</string>
+    <string name="disconnect">Ngắt kết nối</string>
+    <string name="discovered">Server trong mạng này</string>
+    <string name="discovered_none">Đang tìm… (server Barrier cần nhập địa chỉ thủ công)</string>
+
+    <string name="section_input">Chuột &amp; bàn phím</string>
+    <string name="pointer_speed">Tốc độ con trỏ: %1$.1f×</string>
+    <string name="scroll_speed">Tốc độ cuộn: %1$.1f×</string>
+    <string name="invert_scroll">Đảo chiều cuộn</string>
+    <string name="right_button">Chuột phải</string>
+    <string name="middle_button">Chuột giữa</string>
+    <string name="telex">Gõ tiếng Việt (Telex)</string>
+    <string name="telex_help">Gõ tiếng Việt bằng bàn phím máy tính (aa → â, s → sắc, …).</string>
+
+    <string name="section_clipboard">Clipboard</string>
+    <string name="clipboard_help">Văn bản sao chép trên máy tính sẽ tự động được đưa vào clipboard của điện thoại.</string>
+    <string name="sync_on_leave">Gửi clipboard của điện thoại khi con trỏ rời đi</string>
+    <string name="sync_on_leave_help">Mở thoáng qua một màn hình ẩn, vì Android chỉ cho ứng dụng đang được focus đọc clipboard.</string>
+    <string name="send_clipboard">Gửi clipboard sang máy tính</string>
+    <string name="forget_servers">Quên các server đã tin cậy</string>
+
+    <string name="trust_title">Tin cậy server này?</string>
+    <string name="trust_body">%1$s gửi chứng chỉ có fingerprint (SHA-256) như dưới đây. Hãy kiểm tra nó trùng với fingerprint hiển thị trên server trước khi tin cậy.</string>
+    <string name="trust_accept">Tin cậy</string>
+    <string name="cancel">Huỷ</string>
+
+    <string name="action_back">Quay lại</string>
+    <string name="action_home">Màn hình chính</string>
+    <string name="action_recents">Ứng dụng gần đây</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_long_press">Nhấn giữ</string>
+    <string name="action_none">Không làm gì</string>
+
+    <string name="help_title">Cách dùng</string>
+    <string name="help_body">1. Chạy One Cursor (hoặc Barrier / Input Leap) ở chế độ server trên máy tính.\n2. Thêm tên màn hình của điện thoại vào bố cục của server, ví dụ bên phải máy tính.\n3. Bật dịch vụ trợ năng, nhập địa chỉ server và kết nối.\n\nNhấp trái = chạm, giữ = nhấn giữ, kéo = vuốt, con lăn = cuộn. Esc = Quay lại, Cmd/Ctrl+Space = thông báo.</string>
+</resources>
